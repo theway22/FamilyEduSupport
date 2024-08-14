@@ -1,0 +1,472 @@
+.article-title{
+
+    padding: 12px 8px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    background: #fff;
+
+}
+.article-title .avatar{
+    width: 50px;
+}
+.article-title .avatar .image{
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.article-title .tgroup{
+    padding-left: 66px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.article-title .tgroup .title{
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom:5px;
+    color: #555;
+    margin-top: 0;
+    width: 100%;
+}
+.article-title .tgroup .subtitle{
+    display: flex;
+}
+.article-title .tgroup .subtitle .item{
+    padding-top: 5px;
+    display: block;
+    font-size: 13px;
+    color: #cdcdcd;
+    margin-right:22px;
+}
+
+.article-bd{
+
+    border-radius: 4px;
+    background-color: #fff;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+
+
+
+.g-list {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 34px;
+    padding: 15px 15px 50px;
+}
+.g-list .list-item:first-child {
+    padding-top: 0;
+}
+.g-list .list-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+}
+.g-list .list-item .photo {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.g-list .list-item .photo .image {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+.g-list .list-item .content {
+    margin-left: 135px;
+    zoom: 1;
+}
+.g-list .list-item .content .text1 {
+    color: #000;
+    font-size: 14px;
+    font-family: PingFangSC-Medium;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.g-list .list-item .content .text2 {
+    margin-top: 2px;
+    color: #000;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.g-list .list-item .content .introduce {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: #888;
+    height: 60px;
+    overflow: hidden;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.g-list .list-item .item-btn {
+    cursor: pointer;
+    width: 110px;
+    height: 34px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: 0 0 no-repeat url(//i.zhenai.com/pc/seo/xqDetail/static/images/btn-greet.d97b847.png);
+    background-size: contain;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 45px;
+}
+
+
+
+.seat-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100%;
+    background-color: #f0f1f9;
+}
+.seat-list .seat-item{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left:8px;
+    margin-top: 8px;
+    margin-bottom:8px ;
+    position: relative;
+    cursor: pointer;
+
+}
+.seat-list .active{
+    background: #30ddd9;
+}
+.seat-list .seat-item:hover{
+    background-color: #cacdd1;
+}
+.seat-list .seat-item .seatno{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:40px;
+    height: 40px;
+    -webkit-transform: translate(-50%,-20%);
+    transform: translate(-50%,-20%);
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+    font-weight: 600;
+    z-index: 12;
+    color:red;
+
+}
+
+.seat-list .seat-item .paikao-info{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.seat-list .seat-item .paikao-info .image{
+    width:98%;
+    height:150px;
+
+}
+.seat-list .seat-item .paikao-info .name{
+    width:98%;
+    display: flex;
+    justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    color:#444;
+
+}
+
+
+.article-lanmu {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+.article-lanmu .hd{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #E9E9E9;
+    color: #333;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+}
+.article-lanmu .bd{
+
+}
+.article2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-left: 5px solid #fff;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.article2 > .left {
+    width: 25%;
+    float: left;
+    height: 140px;
+}
+
+.article2 > .left img {
+    width: 100%;
+
+    height: 140px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.article2 > .right {
+    width: 73%;
+    float: right;
+    padding-left: 2%;
+}
+.article2 .is-top{
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+    background: #1E9FFF;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0px 5px;
+    position: inherit;
+}
+.article2 .is-zz {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+    background: #FF9900;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0px 5px;
+    position: inherit;
+}
+
+.article2 > .right > .title a {
+    font-size: 18px;
+}
+.article2 .right .abstract{
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    text-indent: 2em;
+}
+.article2 .footer{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+}
+.article2 .footer .item{
+    margin-right: 22px;
+}
+
+
+
+
+.g-list {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 34px;
+    padding: 15px 15px 50px;
+}
+.g-list .list-item:first-child {
+    padding-top: 0;
+}
+.g-list .list-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+}
+.g-list .list-item .photo {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.g-list .list-item .photo .image {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+.g-list .list-item .content {
+    margin-left: 135px;
+    zoom: 1;
+}
+.g-list .list-item .content .text1 {
+    color: #000;
+    font-size: 14px;
+    font-family: PingFangSC-Medium;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.g-list .list-item .content .text2 {
+    margin-top: 2px;
+    color: #000;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.g-list .list-item .content .introduce {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: #888;
+    height: 60px;
+    overflow: hidden;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.g-list .list-item .item-btn {
+    cursor: pointer;
+    width: 110px;
+    height: 34px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: 0 0 no-repeat url(//i.zhenai.com/pc/seo/xqDetail/static/images/btn-greet.d97b847.png);
+    background-size: contain;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 45px;
+}
+
+
+
+
+
+.rich-list{
+    width: 100%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.rich-list >.hd{
+
+}
+.rich-list .bd{
+    background-color: #f5f5f5;
+}
+.rich-list >.bd .imgtext-item{
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: flex-start;
+    padding: 15px;
+    position: relative;
+}
+.b-line:after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b4141;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.rich-list >.bd .imgtext-item .imgar{
+    width: 200px;
+    height: auto;
+    margin-right: 0.8rem;
+}
+.rich-list >.bd .imgtext-item .imgar .image{
+    width: 100%;
+    height: 200px;
+    border-radius:4px;
+}
+
+.rich-list >.bd .imgtext-item .textar{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+    color: #333;
+    align-items: flex-start;
+    height: 100%;
+}
+.rich-list>.bd .imgtext-item .textar .title{
+    color: #00bcd4;
+    display: flex;
+    justify-content: space-between;
+    padding:12px 40px;
+}
+
+.rich-list>.bd .imgtext-item .textar .title .price{
+    color:red;
+
+}
+
+.rich-list>.bd .imgtext-item .textar .des{
+    line-height: 28px;
+    font-size: 14px;
+}
+.rich-list>.bd .imgtext-item .textar .it{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+
+}
+.rich-list>.bd .imgtext-item .textar .it .tag{
+    background-color: #2aabd2;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border-bottom: 1px dotted #d1dade;
+    margin-left:14px;
+}
+.pointer{
+    cursor: pointer;
+}
